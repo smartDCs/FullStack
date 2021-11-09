@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    background-color: rgba(2, 200, 20,0.1);
+}
+.menu_navbar{
+    width: 100%;
+    background-color: rgba(225, 119, 10, 0.8)!important;
+    position: fixed;
+    z-index: 1;
+   
+}
+.menu_navbar div, .menu_navbar ul{
+    background-color: transparent !important;
+    
+}
+.menu_navbar_link a{
+    display: inline-block;
+    
+    text-decoration: none;
+    padding: 1px;
+    margin-bottom: 5px;
+    color: white !important;
+  /* font-size: 1.5em;*/
+}
+.menu_navbar_link a:hover{
+    background-color:rgba(209, 117, 12, 0.4);
+    color: white;
+}
+
+
+.card_foto{
+    padding: 10px;
+    margin: 60px;
+      background-color: rgb(15, 66, 60, 0.5);
+     /* color: white;*/
+}
+.card_datos{
+    padding: 10px;
+    margin: 60px;
+    background-color: rgb(15, 66, 60, 0.15);
+     
+}
+.card_datos p{
+    margin-left: 30px;
+}
+.foto{
+    border: 2px solid white;
+    
+    border-radius: 1%;
+}
+.descripcion{
+    padding-top: 5%;
+    text-align: justify;
+}
+.descripcion a{
+    text-decoration: none;
+    color: white;
+}
+.media_facebook{
+    font-size: 4vw;
+   color: darkblue;
+}
+.media_job{
+    font-size: 4vw;
+}
+.media_estudios{
+    font-size: 4vw;
+}
+.media_datos{
+    font-size: 4vw;
+}
+.media_book{
+    font-size: 4vw;
+    color: rgb(168, 12, 12,0.8);
+}
+.media_universidad{
+    color: rgb(87, 38, 4);
+}
+.media_whatsapp{
+    font-size: 4vw;
+    color: rgb(7, 25, 7);
+}
+.media_mail{
+    font-size: 4vw;
+    color: rgb(255, 145, 7,0.8);
+   
+}
+.media_location{
+    font-size: 4vw;
+    color: red;
+}
+
+@media only screen and (min-width: 680px) {
+    .media_location{
+        font-size: 3vw;
+        color: red;
+    }
+    .media_facebook{
+        font-size: 3vw;
+       
+    }
+    .media_whatsapp{
+        font-size: 3vw;
+        color: rgb(7, 193, 7);
+        
+    }
+    .media_mail{
+        font-size: 3vw;
+        color: rgb(255, 145, 7,0.8);
+    }
+    
+
+} 
+
+.footer{
+    height: 30ch;
+    background-color: rgb(1, 1, 31,0.9);
+    padding-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+.footer hr{
+    border: 1px solid white;
+    margin: 20px;
+}
+.foto_carrucel{
+    height: 55vh;
+}
+.texto_carrucel{
+    width: 50vw;
+    height: 70%;
+    background-color: rgba(7, 6, 6, 0.6);
+    border-radius: 2%;
+    padding-top: 2px;
+   
+}
+.texto_carrucel h5,ul,li{
+    color: white;
+}
+.texto_carrucel ul { 
+   padding-top: -10px; 
+margin-left: 30%;
+text-align: left;
+  }
