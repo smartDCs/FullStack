@@ -24,7 +24,7 @@ body{
     padding: 1px;
     margin-bottom: 5px;
     color: white !important;
-  /* font-size: 1.5em;*/
+  
 }
 .menu_navbar_link a:hover{
     background-color:rgba(209, 117, 12, 0.4);
